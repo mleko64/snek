@@ -30,6 +30,7 @@ Game::Game(MainWindow& wnd)
 	rng(std::random_device()()),
 	snek({ 2,2 })
 {
+	// generowanie pola do zjedzenia
 	GenerateGoal();
 }
 
